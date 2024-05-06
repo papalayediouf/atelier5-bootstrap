@@ -1,0 +1,73 @@
+
+.entete{
+    background: #00796b;
+    text-decoration: none;
+}
+.entete a{
+    text-decoration: none;
+}
+@media screen and (max-width:900px) {
+    .entete{
+        display: none;
+    }
+}
+
+
+/* ffffffffffiiiiiiiinnnn */
+
+
+/* navv */
+
+#navv{
+    background-color: #008374;
+}
+
+
+/* ffffffffffiiiiiiiinnnnn */
+
+/* header */
+
+header{
+    background-color: #008374;
+    : 200vh;
+}
+
+@media screen and (max-width:900px) {
+   
+}
+
+/* ffffiiiiiiiiinnnnnn */
+
+/* recent */
+
+.blog-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+/* contact */
+
+.bag-contact{
+    background-color: #00796b;
+}
+
+/* footer */
+
+footer{
+    background-color: #008374;
+}
+
+.link-footer a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.bgg-contact {
+    background-color: #008374;
+    
+}
+.bgg-contact {
+    font-size: 10px;
+}
+
