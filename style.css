@@ -32,6 +32,7 @@
 }
 .nav-item a{
     font-weight: bold;
+    color: #fff ;
 }
 
 
@@ -54,7 +55,7 @@ header{
 #about li{
     list-style-type: none;
 }
-#about li i{
+#about li i ,.spann{
   color: #00796b;
 }
 
