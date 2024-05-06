@@ -5,9 +5,6 @@
 }
 
 
-
-
-
 .entete{
     background: #00796b;
     text-decoration: none;
@@ -45,13 +42,24 @@ header{
 }
 
 @media screen and (max-width:900px) {
-   
+    .aabbsolute{
+      position: static !important;
+    }
+}
+.abbsolute{
+    background-color: #008374 !important;
+}
+.aabbsolute{
+   position: absolute;
+   top: 220px ;
 }
 
 /* ffffiiiiiiiiinnnnnn */
 
 /* about */
-
+#about{
+    margin-top: 155px !important ;
+}
 #about li{
     list-style-type: none;
 }
@@ -111,12 +119,34 @@ header{
 .zerro{
     color: orangered;
 }
+.width-row{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    
+
+}
+@media screen and (max-width:900px) {
+    .width-row{
+        margin-top: 100px;
+        margin-bottom: 1020px;
+    }
+}
 /* recent */
 
 .blog-img{
     width: 60px;
     height: 60px;
     border-radius: 100%;
+}
+.borduree{
+    height: 100% !important;
+    border: 4px solid #008374 !important;
+}
+.buy{
+    border:1px solid #008374 ;
+    color: #008374 !important;
+    text-decoration: none;
 }
 
 /* ffffiiiinnn */
@@ -125,6 +155,10 @@ header{
 
 .bag-contact{
     background-color: #00796b;
+}
+.sed{
+    background-color: #008374 !important;
+    color: #fff !important;
 }
 
 /* footer */
