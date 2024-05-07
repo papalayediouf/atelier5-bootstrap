@@ -1,10 +1,4 @@
 
-
-*{
-    borde: 1px  solid red;
-}
-
-
 .entete{
     background: #00796b;
     text-decoration: none;
@@ -26,24 +20,32 @@
 
 #navv{
     background-color: #008374;
+    top: 0px !important;
 }
 .nav-item a{
     font-weight: bold;
     color: #fff ;
 }
-
-
+@media screen and (max-width:900px) {
+    #navv{
+        top: 0 !important;
+    }
+}
 /* ffffffffffiiiiiiiinnnnn */
 
 /* header */
 
 header{
     background-color: #008374;
+    height: 100vh; 
 }
 
 @media screen and (max-width:900px) {
     .aabbsolute{
       position: static !important;
+    }
+    header{
+        height: auto;
     }
 }
 .abbsolute{
@@ -51,7 +53,7 @@ header{
 }
 .aabbsolute{
    position: absolute;
-   top: 220px ;
+   top: 420px;
 }
 
 /* ffffiiiiiiiiinnnnnn */
@@ -66,17 +68,36 @@ header{
 #about li i ,.spann{
   color: #00796b;
 }
+.Ianimation{
+    color: #008374 !important;
+    animation: pulse 2s 1s ease-in-out infinite;
+}
+@keyframes pulse{
+    100%{
+        transform:scale(2.5);
+    }
+}
 
 /* fffffiiinnn */
 
 /* loggo */
 .div-logos{
     display: flex;
+    animation: animat 25s ease-in-out infinite alternate;
+    display: ;
+    grid-template-columns: repeat();
+}
+@keyframes animat{
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-200%);}
+   
 }
 .logos{
     width: 9rem;
     margin: 10px;
-
+    margin-left: 12rem;
 }
 /* partenaire */
 
@@ -88,7 +109,6 @@ header{
 .bordure{
     border-bottom: 1px solid rgb(231, 220, 220);
 }
-
 
 /* call */
 
@@ -180,6 +200,15 @@ footer{
     font-size: 10px;
 }
 
+.A{
+    position: fixed;
+    right: 50px;
+    bottom: 80px;
+    padding: 5px;
+}
+.A i{
+    background-color: orangered;
+}
 
 
 
