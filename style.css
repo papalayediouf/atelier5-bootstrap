@@ -20,6 +20,64 @@ body{
 
 }
 
+.brd-princ{
+  border-color: #00796b !important;
+  border-bottom: 2px solid;
+  
+}
+
+
+.green{
+  background: #00796b;
+}
+.circle {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 1px black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 43%;
+  left: 45%;
+}
+
+.pulse {
+  animation: pulse-animation 2s infinite;
+}
+.marge2{
+  margin-left: 20px;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px #00796b;
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(0, 8, 8, 0);
+  }
+}
+/*  */
+@media screen and (max-width:999px) {
+  .marge{
+      margin: 0 !important;
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+  }
+  .marge2{
+      margin-left: 0px !important;
+  }
+  .whu{
+      margin: 0 !important ;
+      width: 100% !important;
+  }
+  .pwhu{
+      padding: 0 !important;
+  }
+}
+
 
 /* ffffffffffiiiiiiiinnnn */
 
@@ -31,19 +89,24 @@ nav{
 }
 .nav-item a{
     font-weight: bold;
-    color: #fff ;
+    color: rgb(175, 171, 171) ;
     outline: none;
 }
 
 .nav-link:hover{
   border-bottom: 2px solid red !important;
+  color: white !important;
 
 }
 
 @media screen and (max-width:900px) {
-  .navbar-brand{
-    padding:  0 !important;
+  .mrg-nav{
+    position: absolute !important;
+    right: 3px !important;
+    top:2px !important;
+
   }
+
 
 }
 /* ffffffffffiiiiiiiinnnnn */
@@ -222,12 +285,12 @@ footer{
 
 .A{
     position: fixed;
-    right: 50px;
-    bottom: 80px;
+    right: 30px;
+    bottom: 30px;
     padding: 5px;
 }
 .A i{
-    background-color: orangered;
+    background-color: rgb(255, 8, 0);
 }
 
 
