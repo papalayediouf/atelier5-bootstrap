@@ -43,48 +43,63 @@
         </div>
     </div>
 
-    <!-- ecrire un programme qui permet de saisair deux nbr un premier 
-    dans un input  avec un buttton calculer .
 
-    des que l'utilisateur appui sur le buttton calculerle proggrmme calcule automatiquement la somme 
-    l-additioon la soutraction et affice le resultat sur un 3em input -->
 
 
     <!-- navv -->
 
-    <nav class="navbar fixed-top  navbar-expand-lg shadow-lg " id="navv">
+    <nav class="navbar navbar-expand-lg   shadow-lg fixed-top ">
       <div class="container-fluid">
-        <a class="navbar-brand h1 text-white fs-1" href="#" >Impact <span class="text-warning">.</span></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <div>
+          <a class="navbar-brand fw-bold text-white ps-5" href="#" >Impact <span class="text-danger">.</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        </div>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto  pe-5 mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link  fw-bold" aria-current="page" href="#Home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link fw-bold" href="#About">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link fw-bold" href="#carouselExampleCaptions">Menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfoliod</a>
+              <a class="nav-link fw-bold" href="#event">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Team</a>
+              <a class="nav-link fw-bold" href="#chef">Chefs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link fw-bold" href="#galerie">Gallery</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-
             
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                </li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#contacte">Contact</a>
+            </li>
           </ul>
-          
+          <!-- <form class="d-flex" role="search">
+            <button class="btn bg-danger text-white rounded-pill " type="">Book a table</button>
+          </form> -->
         </div>
       </div>
     </nav>
@@ -95,7 +110,7 @@
       <!-- header -->
 
       <header >
-        <div class="container position-relative  py-5 my-">
+        <div class="container-fluid position-relative  py-5 my-">
             <div class="row" >
                 <div class="col-12 col-md-6 text-white">
                     <p>
@@ -106,7 +121,7 @@
                          quas beatae cumque eum quaerat.
                     </p>
                     <p class="text-white ">
-                        <a href="" class="btn btn-secondary border rounded-pill px-4 fs-6">Get started</a>    
+                        <a href="" class="btn  bg-opacity-10 text-white bg-white shadow-lg rounded-pill px-4 fs-6">Get started</a>    
                         <a href="" class="btn btn-s rounded-pill  px-3 mx-2 text-white fs-5">
                           <i class="bi bi-play-circle"></i>
                           Watch video
@@ -117,34 +132,30 @@
                     <img src="img/hero-img.svg" alt="img" class="w-100 h-75">
                 </div>
             </div>
-            <div class="row pt-5     aabbsolute ">
-              <div class="col p-3">
-                <div class="boite text-white shadow-lg p-3 mb-5 rounded text-center abbsolute p-5">
-                  <p class="fs-1"><i class="bi bi-easel"></i></p>
-                  <h2>Lorem, ipsum</h2>
-                </div>
+            <div class="row  m-0 p-0 d-flex justify-content-evenly bg-dange w-100">
+              <div class="col-12 col-md-6 col-lg-3 shadow-lg text-center mt-2 whid   py-5 p- rounded">
+                <span class="fs-1">
+                  <i class="bi bi-gem text-white "></i>
+                </span> <br>
+                <span class="h6 text-white ">Lorem Ipsum</span>
               </div>
-              
-
-              <div class="col p-3">
-                <div class="boite text-white shadow-lg p-3 mb-5 abbsolute rounded text-center p-5">
-                  <p class="fs-1"><i class="bi bi-geo-alt"></i></p>
-                  <h2>Lorem, ipsum</h2>
-                </div>
+              <div class="col-12 col-md-6 col-lg-3 shadow-lg text-center mt-2 whid   py-5 p- rounded">
+                <span class="fs-1">
+                  <i class="bi bi-gem text-white "></i>
+                </span> <br>
+                <span class="h6 text-white ">Sed up perspiciats</span>
               </div>
-
-              <div class="col p-3">
-                <div class="boite text-white shadow-lg p-3 mb-5 abbsolute rounded text-center p-5">
-                  <p class="fs-1"><i class="bi bi-gem"></i></p>
-                  <h2>Lorem, ipsum</h2>
-                </div>
+              <div class="col-12 col-md-6 col-lg-3 shadow-lg text-center mt-2 whid   py-5 p- rounded">
+                <span class="fs-1">
+                  <i class="bi bi-gem text-white "></i>
+                </span> <br>
+                <span class="h6 text-white ">Sed up perspiciats</span>
               </div>
-
-              <div class="col p-3">
-                <div class="boite text-white shadow-lg p-3 mb-5 abbsolute rounded text-center p-5">
-                  <p class="fs-1"><i class="bi bi-easel"></i></p>
-                  <h2>Lorem, ipsum</h2>
-                </div>
+              <div class="col-12 col-md-6 col-lg-3 shadow-lg text-center mt-2 whid   py-5 p- rounded">
+                <span class="fs-1">
+                  <i class="bi bi-gem text-white "></i>
+                </span> <br>
+                <span class="h6 text-white ">Sed up perspiciats</span>
               </div>
             </div>
         </div>
@@ -198,7 +209,7 @@
               <p>
                 Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit e
                 sse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-              </p>
+              </p>>
               <div class="position-relative">
                 <p class="text-center position-absolute top-50 start-50 translate-middle">
                   <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn">
@@ -1132,7 +1143,7 @@
 
       <!-- footer -->
 
-      <footer id="">
+      <footer id="" class="">
         <div class= "container">
           <div class="row">
 

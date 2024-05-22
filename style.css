@@ -1,4 +1,11 @@
 
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 .entete{
     background: #00796b;
     text-decoration: none;
@@ -18,18 +25,22 @@
 
 /* navv */
 
-#navv{
+nav{
     background-color: #008374;
-    top: 0px !important;
 }
 .nav-item a{
     font-weight: bold;
     color: #fff ;
+    outline: none;
 }
+
+.nav-link:hover{
+  border-bottom: 2px solid red !important;
+
+}
+
 @media screen and (max-width:900px) {
-    #navv{
-        top: 0 !important;
-    }
+
 }
 /* ffffffffffiiiiiiiinnnnn */
 
@@ -38,6 +49,9 @@
 header{
     background-color: #008374;
     height: 100vh; 
+}
+.whid{
+  width: 230px !important;
 }
 
 @media screen and (max-width:900px) {
@@ -48,12 +62,13 @@ header{
         height: auto;
     }
 }
-.abbsolute{
+.whid{
     background-color: #008374 !important;
+    
 }
 .aabbsolute{
    position: absolute;
-   top: 420px;
+   top: 380px;
 }
 
 /* ffffiiiiiiiiinnnnnn */
@@ -185,6 +200,7 @@ header{
 
 footer{
     background-color: #008374;
+    
 }
 
 .link-footer a{
