@@ -17,6 +17,7 @@ body{
     .entete{
         display: none;
     }
+
 }
 
 
@@ -40,6 +41,9 @@ nav{
 }
 
 @media screen and (max-width:900px) {
+  .navbar-brand{
+    padding:  0 !important;
+  }
 
 }
 /* ffffffffffiiiiiiiinnnnn */
